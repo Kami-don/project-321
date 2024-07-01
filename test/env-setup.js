@@ -6,9 +6,7 @@
 // run with browser globals enabled
 if (typeof window !== 'undefined') {
   require('raf-stub').replaceRaf([global, window]);
-
   // overriding these properties in jsdom to allow them to be controlled
-
   Object.defineProperties(document.documentElement, {
     clientWidth: {
       writable: true,
