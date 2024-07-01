@@ -1,6 +1,3 @@
-// @flow
-
-// Components
 
 export { default as DragDropContext } from './view/drag-drop-context';
 export { default as Droppable } from './view/droppable';
